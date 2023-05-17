@@ -46,7 +46,8 @@ public class LocalMobileDriver implements WebDriverProvider {
         UiAutomator2Options options = new UiAutomator2Options();
         options.merge(capabilities);
 
-        options.setAutomationName(ANDROID_UIAUTOMATOR2)
+        options.setNoReset(true)
+                .setAutomationName(ANDROID_UIAUTOMATOR2)
                 .setPlatformName(ANDROID)
                 .setDeviceName("Pixel 5")
                 .setPlatformVersion("11.0")
