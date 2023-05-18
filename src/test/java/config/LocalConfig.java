@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 public interface LocalConfig extends Config {
 
     @Key("deviceName")
-    @DefaultValue("Pixel 5")
+    @DefaultValue("Pixel 6")
     String deviceName();
 
     @DefaultValue("11.0")

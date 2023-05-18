@@ -49,7 +49,7 @@ public class LocalMobileDriver implements WebDriverProvider {
         options.setNoReset(true)
                 .setAutomationName(ANDROID_UIAUTOMATOR2)
                 .setPlatformName(ANDROID)
-                .setDeviceName("Pixel 5")
+                .setDeviceName("Pixel 6")
                 .setPlatformVersion("11.0")
 //                .setDeviceName("Pixel 4 API 30")
 //                .setPlatformVersion("11.0")
