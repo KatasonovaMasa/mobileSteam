@@ -23,13 +23,13 @@ public class TestBase {
     @BeforeAll
     public static void setup() {
 
-//        if (Objects.equals(deviceHost, "browserstackHost")) {
-//            Configuration.browser = BrowserstackMobileDriver.class.getName();
-//            Configuration.browserSize = null;
-//        } else {
+        if (Objects.equals(deviceHost, "browserstackHost")) {
+            Configuration.browser = BrowserstackMobileDriver.class.getName();
+            Configuration.browserSize = null;
+        } else {
             Configuration.browser = LocalMobileDriver.class.getName();
             Configuration.browserSize = null;
-//            }
+            }
         }
 
     @BeforeEach
